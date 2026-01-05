@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: Qual Brincadeira Combina com Sua Família?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+
+        <!-- Quiz Container -->
+        <div id="quiz-container" class="card">
+            <h2 id="question-text" class="question-text">Carregando pergunta...</h2>
+            <div id="options-container" class="options-container">
+                <!-- Options will be injected here -->
+            </div>
+        </div>
+
+        <!-- Result Container (Hidden by default) -->
+        <div id="result-container" class="card hidden">
+            <h2 class="result-title">Seu Perfil de Brincadeira:</h2>
+            <p id="result-message" class="result-message">Você valoriza momentos criativos!</p>
+            
+            <div class="ebook-showcase">
+                <img src="ebook_cover.png" alt="Capa do Ebook Brincadeiras Criativas" class="ebook-img">
+            </div>
+
+            <p class="sales-pitch">Descubra 50 novas formas de se conectar com seu filho.</p>
+            
+            <a href="#" class="cta-button" id="cta-button">
+                BAIXAR MEU EBOOK COM 20% DE DESCONTO
+            </a>
+            <p class="guarantee">Satisfação garantida ou seu dinheiro de volta</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
